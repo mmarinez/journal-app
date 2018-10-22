@@ -31,7 +31,7 @@ def run_event_loop():
         else:
             print('Invalid Entry')
 
-    # journal.save(journal_list)
+    journal.save(journal_list)
 
 def add_to_journal(data):
     user_input = input('Add a note to your journal\n')
